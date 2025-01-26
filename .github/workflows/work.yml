@@ -1,0 +1,10 @@
+name: work
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v4
+      - run: make setup
+      - run: make test
+      - run: make linter

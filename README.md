@@ -2,6 +2,7 @@
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
+
 ## System requirements
 
 * NodeJS >= 18
